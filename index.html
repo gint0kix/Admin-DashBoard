@@ -31,24 +31,33 @@
         </div>
       </div>
       <div class="header">
-        <div class="search-bar"></div>
-        <div class="user-profile">
-          <div class="notification-btn"></div>
-          <div class="user-profile-logo"></div>
-          <div class="user-profile-name">User-Name</div>
+        <div class="header-top">
+          <div class="search-area">
+            <img id="search-logo" src="/icons/search_icon.svg" alt="search icon">
+             <input id="search-bar" type="text">
+          </div>
+              <div class="user-info">
+                <button id="notification">
+                  <img src="/icons/notification.svg" alt="notification btn">
+                </button>
+                <img id="user-logo" src="/icons/place_holder.svg" alt="user-icon">
+                <div class="user-profile-name">User-Name</div>
+              </div>
+          </div>
+          <div class="header-bot">
+          <div class="header-welcome">
+            <div class="welcome-logo"></div>
+            <div class="welcome-message">Well Hello There,</div>
+            <div class="welcome-user">User-Name (@user)</div>
+          </div>
+          <div class="btn-collection">
+            <button class="new-btn">New</button>
+            <button class="upload-btn">Upload</button>
+            <button class="share-btn">Share</button>
+          </div>
         </div>
-        <div class="header-welcome">
-          <div class="welcome-logo"></div>
-          <div class="welcome-message">Well Hello There,</div>
-          <div class="welcome-user">User-Name (@user)</div>
         </div>
-        <div class="btn-collection">
-          <button class="new-btn">New</button>
-          <button class="upload-btn">Upload</button>
-          <button class="share-btn">Share</button>
-        </div>
-      </div>
-      <div class="content">
+       <div class="content">
         <div class="projects-container">
             <div class="section-title">Your Projects</div>
           <div class="project-card">
@@ -191,6 +200,8 @@
           </div>
         </div>
       </div>
+      </div>
+      
     </div>
   </body>
 </html>
